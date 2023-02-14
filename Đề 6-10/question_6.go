@@ -3,15 +3,11 @@
 package main
 
 import (
-	"bufio"
 	"fmt"
-	"os"
 )
 
 func main() {
-	scanner := bufio.Reader{os.Stdin}
-	fmt.Println("nhap so n: ")
-	scanner.Scan()
+	var x int = 6
 	for i := 1; i <= x; i++ {
 		if i%2 == 0 {
 			fmt.Print(i, " ")
